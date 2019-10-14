@@ -1,0 +1,7 @@
+RWCalendar_Category.xcodeproj/xcuserdata/
+RWCalendar_Category.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+RWCalendar_Category.xcodeproj/project.xcworkspace/xcuserdata/
