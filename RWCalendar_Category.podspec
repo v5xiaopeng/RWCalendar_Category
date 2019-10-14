@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "RWCalendar_Category"
-  s.version      = "4"
+  s.version      = "5"
   s.summary      = "RWCalendar_Category."
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
+  s.author             = { "" => "690209532@qq.com" }
   # Or just: s.author    = "CasaTaloyum"
   # s.authors            = { "CasaTaloyum" => "casatwy@msn.com" }
   # s.social_media_url   = "http://twitter.com/CasaTaloyum"
@@ -65,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "7.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
