@@ -16,4 +16,6 @@
 
 - (void)RWCalendar_setupCalendar;
 
+- (void)RWCalendar_setCalendarBlock:(void(^)(id date))block;
+
 @end
