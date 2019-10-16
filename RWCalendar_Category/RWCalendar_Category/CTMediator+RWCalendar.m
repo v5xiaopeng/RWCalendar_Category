@@ -30,9 +30,7 @@
 }
 
 - (void)RWCalendar_setCalendarBlock:(void(^)(id date))block{
-    NSMutableDictionary *params = [[NSMutableDictionary alloc] init];
-    params[@"block"] = block;
-    [self performTarget:@"RWCalendar" action:@"setCalendarBlock" params:params shouldCacheTarget:NO];
+    [self performTarget:@"RWCalendar" action:@"setCalendarBlock" params:@{@"block":block} shouldCacheTarget:NO];
 }
 
 
