@@ -15,14 +15,14 @@
 - (UIView *)RWCalendar_initCalendar;
 
 /**
- <#Description#>
+ 日历控件子view创建
  */
 - (void)RWCalendar_setupCalendar;
 
 /**
  选择日期返回参数方法
 
- @param block
+ @param block 选择日期block
  */
 - (void)RWCalendar_setCalendarBlock:(void(^)(id date))block;
 
