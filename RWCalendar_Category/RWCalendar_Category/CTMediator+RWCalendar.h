@@ -14,8 +14,16 @@
 /** 初始化日历控件 */
 - (UIView *)RWCalendar_initCalendar;
 
+/**
+ <#Description#>
+ */
 - (void)RWCalendar_setupCalendar;
 
+/**
+ 选择日期返回参数方法
+
+ @param block
+ */
 - (void)RWCalendar_setCalendarBlock:(void(^)(id date))block;
 
 @end
